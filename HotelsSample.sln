@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelsSample.ConsoleApp", "HotelsSample.Console\HotelsSample.ConsoleApp.csproj", "{2A70BB20-C6DB-4E7D-BB78-2C57FAE729BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSample", "HotelsSample.Web\FindSample.csproj", "{9C630D55-4EE7-472E-B268-00C961C993BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWebsite", "FindWebsite\FindWebsite.csproj", "{9CFE0744-9E77-45EF-A40B-735A844DF539}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{9C630D55-4EE7-472E-B268-00C961C993BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C630D55-4EE7-472E-B268-00C961C993BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C630D55-4EE7-472E-B268-00C961C993BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFE0744-9E77-45EF-A40B-735A844DF539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFE0744-9E77-45EF-A40B-735A844DF539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFE0744-9E77-45EF-A40B-735A844DF539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFE0744-9E77-45EF-A40B-735A844DF539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4803E9C4-46D0-4551-A84B-B955D4DF1F2B}
 	EndGlobalSection
 EndGlobal
